@@ -21,3 +21,16 @@ I am a Front-End Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmT
   <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
 </div>
+<div><br><br>
+<b>Objective:</b><br> To create a functional calculator using React, HTML, and CSS that performs basic arithmetic operations such as addition, subtraction, multiplication, and division, and displays the result to the user in real-time. The calculator should have a user-friendly interface, be responsive on different screen sizes, and be built in a modular, scalable and maintainable manner.
+<br><br>
+
+<b>Functional Requirements:</b>
+* Perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+* Display the calculation result on the calculator's screen.
+* Allow the user to clear the previous calculation and start a new one.
+* Handle errors and display an appropriate error message if an invalid operation is performed.
+
+<br>
+<b>Outcome:</b><br>The final product is functional and user-friendly web-based calculator that is hosted on Firebase Hosting and can be easily accessed by anyone with an internet connection.
+</div>
