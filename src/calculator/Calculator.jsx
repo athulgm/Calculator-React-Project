@@ -94,25 +94,35 @@ const Calculator = () => {
       <div className="result-display">{result}</div>
       <div className="c-name">Calculator</div>
       <div className="buttons-container">
-        <button className="button arrow" value="C" onClick={reset}>AC</button>
+      <div className="btn-row">
+        <button className="button arrow operator-button" value="C" onClick={reset}>AC</button>
         <button className="button operator-button" value="%" onClick={handlePercent}>%</button>
-        <button className="button" value="<" onClick={backspace}>&larr;</button>
+        <button className="button operator-button" value="<" onClick={backspace}>&larr;</button>  
+      </div>
+      <div className="btn-row">
         <button className="button" value="9" onClick={handleClick}>9</button>
         <button className="button" value="8" onClick={handleClick}>8</button>
         <button className="button" value="7" onClick={handleClick}>7</button>
         <button className="button operator" value="+" onClick={handleClick}>+</button>
+      </div>
+      <div className="btn-row">
         <button className="button" value="6" onClick={handleClick}>6</button>
         <button className="button" value="5" onClick={handleClick}>5</button>
         <button className="button" value="4" onClick={handleClick}>4</button>
         <button className="button operator" value="-" onClick={handleClick}>-</button>
+      </div>
+       <div className="btn-row">
         <button className="button" value="3" onClick={handleClick}>3</button>
         <button className="button" value="2" onClick={handleClick}>2</button>
         <button className="button" value="1" onClick={handleClick}>1</button>
         <button className="button operator" value="*" onClick={handleClick}>x</button>
+       </div>
+      <div className="btn-row">
         <button className="button" onClick={addDot}>.</button>
         <button className="button" value="0" onClick={handleClick}>0</button>
         <button className="button eresult" value="=" onClick={calculate}>=</button>
         <button className="button operator" value="/" onClick={handleClick}>÷</button>
+      </div>
       </div>
     </div>
 </div>

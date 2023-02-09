@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
+    width: 100%;
     background: rgb(238, 174, 202);
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
@@ -29,10 +29,17 @@
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
+    display: flex;
+    
 }
 .buttons-container {
     display: flex;
     flex-wrap: wrap;
+}
+.btn-row{
+    display: flex;
+    flex-direction: row;
+    width: auto;
 }
 .button {
   display: block;
@@ -66,18 +73,23 @@
     width: 190px;
 }
 @media screen and (max-width: 480px) {
-
+.main-container{
+    margin: 0px;
+    padding: 15px;
+}
     .calculator-container{
-        width: 300px;
+        width: auto;
     }
     .buttons-container {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
     .button {
                 display: block;
-                width: 50px;
-                height: 50px;
+                width: 70px;
+                height: 60px;
                 margin: 5px;
                 float: left;
                 text-align: center;
@@ -86,7 +98,9 @@
                 cursor: pointer;
     }
         .arrow {
-            width: 170px;
+            width: 150px;
         }
-
+.btn-row {
+    width: auto;
+}
 }
